@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(33, 30, 39);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conteudo{
+
+
+    width: 25%;
+    background-color: #ff4f4f;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.busca{
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:85%;
+    margin-right: 10px;
+}
+
+.fa-magnifying-glass{
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.areapokemon{
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(56, 51, 51);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#imgpokemon{
+    height: 100px;
+}
+
+
+
+@media only screen and (max-width:900px){
+    .conteudo{
+        width: 80%;
+    }
+}
