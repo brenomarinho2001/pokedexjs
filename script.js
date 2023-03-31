@@ -76,3 +76,8 @@ function getPokemon(nome){
 
 
 
+document.addEventListener('keypress',function(e){
+  if(e.key == 'Enter'){
+    getInputValue()
+  }
+})
