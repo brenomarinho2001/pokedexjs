@@ -65,6 +65,8 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 30px;
+
+    flex-direction: column;
 }
 
 #imgpokemon{
@@ -73,14 +75,10 @@ header{
 
 
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:1000px){
     .conteudo{
         
         width: 80%;
     }
 
-    .areapokemon{
-        display: flex;
-        flex-direction: column;
-    }
 }
